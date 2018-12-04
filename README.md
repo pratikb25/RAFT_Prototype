@@ -5,7 +5,7 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 # Team
 * Sharwari Phadnis(012168884)
 * Janhavi DahiHande
-* Pratik 
+* Pratik Bhandarkar (013735748)
 * Kruti Thukral (012586041)
 * Nishtha Aatrey (013006292)
 
@@ -16,6 +16,15 @@ Raft is a consensus algorithm designed as an alternative to Paxos. It was meant 
 * During the presentation, talked on performance and optimizations in RAFT
 * During the presentation, gave a quick demo on a protoype using RAFT open source library
 * Played an active role in the Q & A session during the presentation
+
+## Pratik Bhandarkar
+* Researched the "safety" part of RAFT i.e. how RAFT maintains the consistency while dealing with leader and/or follower/candidate failures
+* During presentation talked about following safety aspects of RAFT:
+  - Election restriction
+  - Leader crashes
+  - Candidate/follower crashes
+  - Timing and availability requirements
+* Actively participated in the Q & A session during the presentation
 
 # How to run the prototype
 ## Dependencies:
